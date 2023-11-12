@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+*:not(.globe,.header p, .header) {
+    background: #e5e5e5;
+}
+
+.globe {
+    width: 50px;
+    fill: #ffffff;
+
+}
+
+.header p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #FF2400;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+    margin: 5px;
+}
+
+
+.Card {
+    
+    display: flex;
+    flex-direction: row;
+    width:70%;
+    padding: 50px;
+    align-items: center;
+}
+
+
+
+.Card img {
+    max-width: 300px;
+    border-radius: 20px;
+    height: 450px;
+}
+
+.Card img:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+.details {
+    padding: 25px;
+    
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.location p {
+    letter-spacing: 2px;
+    font-weight:300;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.location-icon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.location-title {
+    font-weight: bold;
+    font-size: 60px;
+    padding: 5px 0 20px 0;
+}
+
+.location a {
+    color: #8c8c8c;
+}
+
+.location a:hover {
+    color:#FF2400;
+}
+
+.details .dates {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
