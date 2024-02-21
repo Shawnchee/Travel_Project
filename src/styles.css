@@ -32,14 +32,17 @@
 
 
 .Card {
-    
     display: flex;
     flex-direction: row;
-    width:70%;
+    width:100%;
     padding: 50px;
     align-items: center;
+    justify-content: center;
 }
 
+.Card * {
+    max-width: 500PX; 
+}
 
 
 .Card img {
@@ -84,9 +87,15 @@
     color: #8c8c8c;
 }
 
+
+.location a:visited {
+    color: #17aa46;
+}
+
 .location a:hover {
     color:#FF2400;
 }
+
 
 .details .dates {
     font-weight: bold;
